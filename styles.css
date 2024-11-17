@@ -1,1 +1,19 @@
-/* your code */
+
+
+table, th, td{
+	background-color: lightsalmon;
+	border: 1px solid black;
+}
+ table {
+            width: 60%; /* Adjusts table width */
+            margin: auto; /* Centers the table on the page */
+            border-collapse: collapse; /* Removes double borders */
+        }
+th, td {
+            padding: 10px; /* Adds space inside cells */
+            text-align: center; /* Centers text horizontally */
+        }
+th {
+            background-color: lightcoral; /* Light gray header background */
+            font-weight: bold; /* Makes headers stand out */
+        }
